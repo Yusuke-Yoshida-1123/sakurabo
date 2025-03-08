@@ -3,7 +3,8 @@
         h1{
             img{
                 width :100%;   
-                object-fit: cover;
+                    height:90%;
+                object-fit: contain;
                 object-position: top;
                 vertical-align: bottom;
             }
