@@ -282,7 +282,7 @@
   opacity: 0;
   transition: 0.5s;
   transform: translateY(-100px);
-  height: 80%;
+  
   width: 14%;
   border: 1px solid red;
 }
