@@ -274,7 +274,7 @@
           clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 87%);
 }
 .income-point .point-text {
-  float: right;
+
   position: absolute;
   right: 15%;
   top: 0;
@@ -282,10 +282,8 @@
   opacity: 0;
   transition: 0.5s;
   transform: translateY(-100px);
-  width: 14%;
 }
 .income-point .point-text p {
-  position: absolute;
   width: -moz-fit-content;
   width: fit-content;
   direction: ltr;
