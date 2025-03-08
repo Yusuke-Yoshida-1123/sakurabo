@@ -7,6 +7,8 @@
 
     .point-text {
         position: absolute;
+        display:flex;
+        
         right: 15%;
         top:0;
         direction: rtl;
@@ -16,7 +18,6 @@
 
         p {
             direction: ltr;
-            display: inline-block;
             text-align: left;
             padding-inline: 5px;
             writing-mode: vertical-lr;
