@@ -1,0 +1,28 @@
+.letter{
+    background-image: url(../img/Group\ 804.png);
+    background-size: cover;
+    padding-inline: 6%;
+    padding-block: 40px;
+
+    p{
+        font-family: Zen Kaku Gothic New;
+        font-weight: 700;
+        color: rgba(129, 102, 79, 1);
+        
+    }
+    &-title{
+        font-size: clamp(24px, calc(1vw + 1em), 3.2rem);
+        text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    }
+    p:not(.letter-title){
+        font-size: clamp(16px, calc(1vw + 0.3em), 3.2rem);
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+    }
+    p:not([class]){
+        margin-top: 20px;
+    }
+    &-name{
+        margin-top: 30px;
+    }
+    
+}
