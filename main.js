@@ -40,8 +40,8 @@ $(function () {
     $('.slide-items').slick({
         arrous:true,
         dots:true,
-        prevArrow:'<img src="../img/Polygon 4.png" class="prev-btn arrow">',
-        nextArrow:'<img src="../img/Polygon 3.png" class="next-btn arrow">'
+        prevArrow:'<img src="img/Polygon 4.png" class="prev-btn arrow">',
+        nextArrow:'<img src="img/Polygon 3.png" class="next-btn arrow">'
     })
     $(window).scroll(function () {
         // point-textクラスに対して順に処理を行う
