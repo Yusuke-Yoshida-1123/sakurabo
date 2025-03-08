@@ -1,0 +1,213 @@
+.pro-counselor {
+    background-color: rgba(255, 236, 239, 1);
+    text-align: center;
+    padding-top:30px;
+    .title1 {
+        color: rgba(200, 100, 136, 1);
+        font-family: yosugara;
+        // font-size: 20px;
+        font-size: clamp(20px, calc(1vw + 1em), 3.2rem);
+        font-weight: 500;
+        position: relative;
+
+        display: inline;
+
+        &::before {
+            width: 98%;
+            height: 1px;
+            content: "";
+            background-color: rgba(200, 100, 136, 1);
+            position: absolute;
+            bottom: -5px;
+            left: -5px;
+        }
+
+        &::after {
+            width: 13px;
+            height: 13px;
+            content: "";
+            border-top: 11px solid rgba(200, 100, 136, 1);
+            border-bottom: 7px solid transparent;
+            border-inline: 7px solid transparent;
+            position: absolute;
+            bottom: -26px;
+            left: calc(50% - 6px);
+        }
+    }
+
+    .title2 {
+        // font-size: 20px;
+        font-size: clamp(20px, calc(1vw + 0.5em), 3.2rem);
+        margin-top: 30px;
+        width: 75%;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        margin-inline: auto;
+        border-radius: 20px 0 20px 0;
+        color: rgba(200, 100, 136, 1);
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(200, 100, 136, 1);
+    }
+
+    .title3 {
+        // font-size: 16px;
+        font-size: clamp(16px, calc(1vw + 0.5em), 3.2rem);
+        color: rgba(129, 102, 79, 1);
+    }
+
+    .title2,
+    .title3 {
+        font-family: Noto Sans JP;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .counselor-div1,
+    .counselor-div2,
+    .counselor-div3 {
+        position: relative;
+        // border: 1px solid blue;
+        width: 100%;
+        .counselor-bg{
+            position: absolute;
+            top:0;
+            bottom: 0;
+            margin-block: auto;
+            // left: 10%;
+            // translate: -50% -50%;
+            z-index: 2;
+            max-width: 200px;
+            min-width: 130px;
+            width: 40vw;
+            max-height: 200px;
+            min-height: 130px;
+            height: 40vw;
+            border-radius: 50%;
+            // border: 1px solid black;
+            background-image: radial-gradient(rgba(255, 254, 241, 1)60%, rgba(255, 255, 255, 0)70%);
+        p{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            translate: -50% -50%;
+        }
+        }
+
+        p {
+            //position: absolute;
+            //top: 30%;
+            z-index: 3;
+            font-family: yosugara;
+            color: rgba(81, 81, 81, 1);
+            // font-size: 20px;
+            font-size: clamp(20px, calc(1vw + 0.3em), 3.2rem);
+            font-weight: 500;
+            text-align: center;
+            max-width: 146px;
+            min-width: 130px;
+            width: 30vw;
+            // max-height: 146px;
+            // min-height: 130px;
+            // height: 30vw;
+        }
+
+        // p::before {
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     translate: -10% -25%;
+        //     z-index: -1;
+        //     max-width: 200px;
+        //     min-width: 130px;
+        //     width: 40vw;
+        //     max-height: 200px;
+        //     min-height: 130px;
+        //     height: 40vw;
+        //     border-radius: 50%;
+        //     // border: 1px solid black;
+        //     background-image: radial-gradient(rgba(255, 254, 241, 1)60%, rgba(255, 255, 255, 0)70%);
+        // }
+    }
+
+    .counselor-div1,
+    .counselor-div3 {
+        div {
+            left: 7%;
+        }
+    }
+
+    .counselor-div2 {
+        div {
+            right: 7%;
+        }
+
+    }
+
+    .counselor-div1 {
+        p::before {
+            translate: -3% -35%;
+        }
+    }
+
+    .happy-review {
+        padding-top: 50px;
+        
+    }
+
+    .counselor-bottom {
+        p {
+            font-family: Zen Kaku Gothic New;
+            font-weight: 500;
+            font-size: clamp(20px, calc(1vw + 0.2rem), 3.2rem);
+            color: rgba(0, 0, 0, 1);
+        }
+
+        .take-happy-review {
+            background-color: rgba(255, 255, 255, 1);
+            width: 86%;
+            height: 55px;
+            line-height: 55px;
+            text-align: center;
+            margin-inline: auto;
+
+            span {
+                color: rgba(255, 80, 135, 1);
+                background-image: radial-gradient(circle at center, rgba(255, 80, 135, 1) 20%, transparent 20%);
+                /* 点の色とサイズ調整 */
+                background-position: top right;
+                /* 点の位置 */
+                background-repeat: repeat-x;
+                /* 横方向に繰り返し */
+                background-size: 1em 0.3em;
+                /* 点の間隔とサイズ調整 */
+                padding-top: .4em;
+                /* 縦方向の位置調整 */
+            }
+        }
+        p:not([class]){
+            border: 1px solid rgba(255, 140, 159, 1);
+            border-radius: 50%;
+            width: 52px;
+            height: 52px;
+            line-height: 52px;
+            margin-inline:auto;
+            margin-bottom: 10px;
+            position: relative;
+            &::before{
+                content: "";
+                width: 10px;
+                height: 1px;
+                transform:rotate(36deg);
+                background-color: rgba(255, 140, 159, 1);
+                position: absolute;
+                bottom: -9%;
+                right: calc(50% - 15px);
+            }
+        }
+
+    }
+
+
+}
