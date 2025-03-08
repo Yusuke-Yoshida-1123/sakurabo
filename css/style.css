@@ -269,7 +269,7 @@
           clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 87%);
 }
 .income-point .point-text {
-  position: absolute;
+  position:absolute;
   right: 15%;
   top: 0;
   direction: rtl;
@@ -866,7 +866,7 @@ h1 {
 }
 @keyframes shine {
   100% {
-    left: 73%;
+    left: 90%;
   }
 }
 .counseling-shadow {
