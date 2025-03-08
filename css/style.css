@@ -284,11 +284,10 @@
   transform: translateY(-100px);
   width: 14%;
   border: 1px solid red;
+  height:100%;
 }
 .income-point .point-text p {
   position: absolute;
-  width: -moz-fit-content;
-  width: fit-content;
   direction: ltr;
   display: inline-block;
   padding-inline: 5px;
