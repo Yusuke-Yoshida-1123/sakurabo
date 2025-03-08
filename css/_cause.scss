@@ -1,0 +1,120 @@
+.cause {
+    background-color: rgba(255, 236, 239, 1);
+    padding-bottom: 10px;
+
+    &-root {
+        position: relative;
+        text-align: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 60%;
+            height: 48%;
+            left: 50%;
+            top: 34px;
+            translate: -50% 0;
+            background-image: radial-gradient(rgba(255, 255, 255, 1)0%, rgba(255, 255, 255, 0.5)60%, rgba(255, 255, 255, 0)80%);
+            border-radius: 50%;
+        }
+
+        p {
+            font-family: yosugara;
+            font-size: clamp(24px, calc(1vw + 1em), 3.2rem);
+            font-weight: 500;
+            color: (0, 0, 0, 1);
+            display: inline-block;
+            text-align: center;
+
+            span {
+                background-image: linear-gradient(60deg, rgba(255, 245, 188, 1)50%, rgba(255, 255, 255, 0)100%);
+            }
+        }
+
+        img {
+            width: 80%;
+            margin-top: 55px;
+
+        }
+    }
+
+    .reason {
+        background-color: rgba(255, 255, 255, 1);
+        width: 96%;
+        margin-inline: auto;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+
+        &-exa {
+            color: rgba(79, 54, 54, 1);
+            font-family: Zen Kaku Gothic New;
+            font-weight: 500;
+            // font-size: 20px;
+            font-size: clamp(20px, calc(1vw + 0.2em), 3rem);
+            text-align: center;
+            display: block;
+            margin-inline: auto;
+            line-height: 42px;
+            margin-bottom: 30px;
+            width: 328px;
+            height: 42px;
+            border-radius: 20px 0 20px 0;
+            background-image: linear-gradient(to right, rgba(255, 224, 249, 1)0%, rgba(255, 187, 198, 1)100%);
+        }
+
+        &-image {
+            margin-left: -2%;
+        }
+
+        &-number {
+            font-family: Inter;
+            font-weight: 400;
+            // font-size: 36px;
+            font-size: clamp(36px, calc(1vw + 1em), 3.2rem);
+
+        }
+
+        &-title {
+            font-weight: 400;
+            // font-size: 20px;
+            font-size: clamp(20px, calc(1vw + 1em), 3.2rem);
+            font-family: Cedarville Cursive;
+        }
+
+        &-title,
+        &-number {
+            color: rgba(200, 100, 136, 1);
+            text-align: center;
+        }
+
+        div {
+            width: 92%;
+            margin-inline: auto;
+            font-weight: 500;
+            font-family: Zen Kaku Gothic New;
+            // font-size: 14px;
+            font-size: clamp(14px, calc(1vw + 0.1em), 3.2rem);
+            color: rgba(81, 81, 81, 1);
+
+            span {
+                color: rgba(200, 100, 136, 1);
+            }
+        }
+
+        &-counseling {
+            width: 91%;
+        }
+
+        &-solve {
+            width: 60%;
+        }
+
+        &-counseling,
+        &-solve {
+            display: block;
+            margin-inline: auto;
+        }
+    }
+}
