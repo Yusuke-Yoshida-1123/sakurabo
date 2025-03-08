@@ -1,0 +1,30 @@
+.voice-slick {
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+
+    section {
+        width: 92%;
+        margin-inline: auto;
+        ol {
+            position: absolute;
+            list-style: none;
+            bottom: 50px;
+            left: 8%;
+            width: 84%;
+        }
+    }
+    .arrow{
+        width: 5%;
+        position: absolute;
+        top:48%;
+        z-index: 4;
+        cursor: pointer;
+    }
+    .prev-btn{
+        left:-7%;
+    }
+    .next-btn{
+        right:-7%;
+    }
+}
+
