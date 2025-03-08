@@ -8,6 +8,7 @@
     .point-text {
         position: absolute;
         display:flex;
+        flex-direction:column;
         right: 15%;
         top:0;
         direction: rtl;
