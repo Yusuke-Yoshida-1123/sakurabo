@@ -285,7 +285,7 @@
   
 }
 .income-point .point-text p {
-  
+  position:absolute;
   width: -moz-fit-content;
   width: fit-content;
   direction: ltr;
@@ -299,6 +299,12 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   color: rgb(255, 80, 135);
   vertical-align: top;
+}
+.point-text1{
+  right:0;
+}
+.point-text2{
+  right:5%;
 }
 .income-point .point-text1 span {
   background-image: linear-gradient(rgb(255, 79, 0) 0.5%, rgb(255, 217, 65) 20%, rgb(255, 80, 135) 100%);
