@@ -857,7 +857,7 @@ h1 {
   top: 0;
   left: -70%;
   z-index: 6;
-  width: 30%;
+  width: 50%;
   height: 100%;
   content: "";
   transform: skewX(-25deg);
