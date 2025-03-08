@@ -274,6 +274,8 @@
           clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 87%);
 }
 .income-point .point-text {
+  flex-direction: row;   
+            align-items: center;
   position: absolute;
   right: 15%;
   top: 0;
